@@ -1,0 +1,36 @@
+@media screen and (max-width: 1300px){
+    .grid-item{
+       grid-template-columns: 1fr 1fr 1fr;
+    }
+    .hero .container{
+        justify-content: flex-start;
+        gap: 50px;
+    }
+}
+
+@media screen and (max-width: 998px){
+    .grid-item{
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+     }
+}
+
+@media screen and (max-width: 660px){
+    .free-game .bottom .fg-card img{
+        width: 400px;
+    }
+    .grid-item{
+        grid-template-columns: 1fr ;
+        gap: 15px;
+        justify-items: center;
+     }
+}
+
+@media screen and (max-width: 600px){
+    header .left a{
+        display: none;
+    }
+    .free-game .bottom .fg-card img{
+        width: 250px;
+    }
+}

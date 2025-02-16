@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Epic Games</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/responsive.css">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=search" />
+</head>
+
+<body>
+  <header>
+
+    <div class="left">
+      <img class="logo"
+        src="https://cdn2.unrealengine.com/Unreal+Engine%2Feg-logo-filled-1255x1272-0eb9d144a0f981d1cbaaa1eb957de7a3207b31bb.png"
+        alt="logo">
+      <a class="store-btn" href="#">Store</a>
+      <a href="#">Support</a>
+      <a href="#">Distribute</a>
+    </div>
+    <div class="right">
+      <a href="#">Login</a>
+      <button class="btn-primary">Download</button>
+    </div>
+
+  </header>
+
+  <nav class="container">
+    <div class="left">
+      <input class="Searchbox" type="text" placeholder="Search Store">
+      <span class="material-symbols-outlined">
+        search
+      </span>
+    </div>
+    <div class="right">
+      <a href="#">Wishlist</a>
+      <a href="#">Cart</a>
+    </div>
+  </nav>
+
+  <div class="hero">
+    <div class="container">
+
+      <div class="left">
+        <h1 class="hero-title">Claim GTA FIVE Right NOW. <br>
+          Otherwise There is no point <br> of Using Epic Games
+        </h1>
+        <button class="btn-primary">Claim Now</button>
+      </div>
+      <div class="right">
+        <img
+          src="https://c4.wallpaperflare.com/wallpaper/148/665/297/grand-theft-auto-v-grand-theft-auto-v-online-rockstar-games-wallpaper-preview.jpg">
+      </div>
+    </div>
+  </div>
+
+  <div class="store">
+    <div class="container">
+
+      <div class="top">
+        <div class="left">
+          <h2>Epic Savings</h2>
+          <p>Save on a wide variety of titles from now until February 6, 2025 11am ET.</p>
+        </div>
+        <div class="right">
+          <img
+            src="https://cdn2.unrealengine.com/epic-savings-january-collection-header-1281x721-171a2871a297.png?resize=1&w=1280&h=720&quality=medium">
+        </div>
+      </div>
+
+      <div class="grid-item">
+
+        <div class="top">
+          <select class="select-cat" id="selectCategory">
+              
+            <option value="all">All</option>
+            <option value="mmo">Latest MMO</option>
+            <option value="category">Games by Category or Tag</option>
+            
+          </select>
+        </div>
+
+        
+
+        <div class="card-holder" id="cardHolder">
+
+
+        </div>
+
+        <!-- <div class="card">
+          <img
+            src="https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_CrysisRemasteredTrilogy_Crytek_S2_1200x1600-c58109d2ea25771ab13d58d6183fc4d0?resize=1&w=360&h=480&quality=medium"
+            alt="">
+          <h3 class="card-title">Crysis Remasterd</h3>
+          <button class="btn-primary">Order Now</button>
+        </div>
+
+        <div class="card">
+          <img
+            src="https://cdn1.epicgames.com/offer/fda0f2b4047f46ffb4e94d5595c1468e/EGS_MortalKombat1KhaosReignsKollection_NetherRealmStudiosQLOC_Editions_S2_1200x1600-2ddf4ca9b43a4c1385de2fe99c68df21?resize=1&w=360&h=480&quality=medium"
+            alt="">
+          <h3 class="card-title">Mortal Kombat</h3>
+          <button class="btn-primary">Order Now</button>
+        </div>
+
+        <div class="card">
+          <img
+            src="https://cdn1.epicgames.com/offer/ed55aa5edc5941de92fd7f64de415793/EGS_HITMANWorldofAssassinationDeluxeEdition_IOInteractiveAS_Bundles_S2_1200x1600-c70072e6dc295ab6faf1d0c22090c5fe?resize=1&w=360&h=480&quality=medium"
+            alt="">
+          <h3 class="card-title">HIT MAN</h3>
+          <button class="btn-primary">Order Now</button>
+        </div>
+        <div class="card">
+          <img
+            src="https://cdn1.epicgames.com/offer/708f57aaa04b42ef885be16c8288f0ac/EGS_Ghostrunner2BrutalEdition_OneMoreLevel_Editions_S2_1200x1600-ae086f338f7322f03f7b19d589345d8b?resize=1&w=360&h=480&quality=medium"
+            alt="">
+          <h3 class="card-title">Ghost Runner 2</h3>
+          <button class="btn-primary">Order Now</button>
+        </div>
+        <div class="card">
+          <img
+            src="https://cdn1.epicgames.com/offer/b61e8ddd14e94619b7a74cf9d73f86b5/EGS_EASPORTSFC25StandardEdition_EACanada_S2_1200x1600-6e6b5c1d5d30e15b1dbdde721c6bc544?resize=1&w=360&h=480&quality=medium"
+            alt="">
+          <h3 class="card-title">EA Sports FC 25</h3>
+          <button class="btn-primary">Order Now</button>
+        </div>
+        <div class="card">
+          <img
+            src="https://cdn1.epicgames.com/spt-assets/ca9ef1bcf2f54043baac351366aec677/black-myth-wukong-jjjfw.png?resize=1&w=360&h=480&quality=medium"
+            alt="">
+          <h3 class="card-title">Black Myth: Wukong</h3>
+          <button class="btn-primary">Order Now</button>
+        </div>
+        <div class="card">
+          <img
+            src="https://cdn1.epicgames.com/0584d2013f0149a791e7b9bad0eec102/offer/GTAV_EGS_Artwork_1200x1600_Portrait%20Store%20Banner-1200x1600-382243057711adf80322ed2aeea42191.jpg?resize=1&w=360&h=480&quality=medium"
+            alt="">
+          <h3 class="card-title">GTA FIVE</h3>
+          <button class="btn-primary">Claim Now</button>
+        </div>
+        <div class="card">
+          <img
+            src="https://cdn1.epicgames.com/spt-assets/eb15454c010f4a748498cd3a62096a52/marvel-rivals-wq3mr.png?resize=1&w=360&h=480&quality=medium"
+            alt="">
+          <h3 class="card-title">Marvel Rivals</h3>
+          <button class="btn-primary">Order Now</button>
+        </div>
+        <div class="card">
+          <img
+            src="https://cdn1.epicgames.com/offer/d2d162953fec40e381867d7af8371362/EGS_HonkaiImpact3rd_miHoYoLimited_S2_1200x1600-f903bff1bb3e05f92d9d605e9b43a5b7?resize=1&w=360&h=480&quality=medium"
+            alt="">
+          <h3 class="card-title">Hentai Impact 3rd</h3>
+          <button class="btn-primary">Order Now</button>
+        </div>
+        <div class="card">
+          <img
+            src="https://cdn1.epicgames.com/spt-assets/dcd83ace86fb4501bde1316ca03e29ad/zenless-zone-zero-1uo12.jpg?resize=1&w=360&h=480&quality=medium"
+            alt="">
+          <h3 class="card-title">Zenless Zone Zero</h3>
+          <button class="btn-primary">Order Now</button>
+        </div>
+        <div class="card">
+          <img
+            src="https://cdn1.epicgames.com/offer/cbd5b3d310a54b12bf3fe8c41994174f/EGS_VALORANT_RiotGames_S2_1200x1600-46207e34c7dd798d917b694420a4e46d?resize=1&w=360&h=480&quality=medium"
+            alt="">
+          <h3 class="card-title">Balorant</h3>
+          <button class="btn-primary">Order Now</button>
+        </div>
+        <div class="card">
+          <img
+            src="https://cdn1.epicgames.com/salesEvent/salesEvent/725818d8-9768-4a6a-a723-3039aaee1e23_1200x1600-3b6116d3fc1b566b71251d04bce27938?resize=1&w=360&h=480&quality=medium"
+            alt="">
+          <h3 class="card-title">Farming Simulator 22</h3>
+          <button class="btn-primary">Order Now</button>
+        </div> -->
+
+
+      </div>
+
+    </div>
+  </div>
+
+  <div class="free-game container">
+    <div class="top">
+      <h2>Free Games</h2>
+      <button>View More</button>
+    </div>
+    <div class="bottom">
+
+      <div class="fg-card">
+        <img
+          src="https://cdn1.epicgames.com/offer/487df1dfd24b44c381a2a376fbf78946/EGS_Undying_Vanimals_S1_2560x1440-9d12977d4bf7410c7178d679db0fc7b8?resize=1&w=854&h=480&quality=medium"
+          alt="">
+        <h1>Undying</h1>
+      </div>
+      <div class="fg-card">
+        <img
+          src="https://cdn1.epicgames.com/bd9fd28ca1214868922f2ab41d6d3b65/offer/EGS_BeyondBlue_ELineMedia_S1-2560x1440-5d205f1273f6b805db82bc525a1432b9.jpg?resize=1&w=854&h=480&quality=medium"
+          alt="">
+        <h1>Beyond Blue</h1>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="border container">
+
+  </div>
+
+  <footer class="container">
+
+
+
+    <ul>
+      <li>Terms of Service</li>
+      <li>Privacy Policy</li>
+      <li>Store Refund Policy</li>
+      <li>Publisher Index</li>
+    </ul>
+    <div class="footer-logo">
+
+      <img class="epic-logo"
+        src="https://cdn2.unrealengine.com/Unreal+Engine%2Feg-logo-filled-1255x1272-0eb9d144a0f981d1cbaaa1eb957de7a3207b31bb.png"
+        alt="">
+      <img class="unreal-logo" src="https://icon2.cleanpng.com/20180405/gaq/avbd2oicw.webp" alt="">
+    </div>
+
+
+  </footer>
+
+  <script src="./main.js">
+  </script>
+
+
+</body>
+
+</html>
